@@ -3,7 +3,7 @@
 # use Api
 openweathermap current weather Data Api
 
-https://openweathermap.org/
+https://openweathermap.org
 # function
 
 1. current location get weather data
