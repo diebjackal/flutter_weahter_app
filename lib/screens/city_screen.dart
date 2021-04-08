@@ -1,4 +1,4 @@
-import 'package:clima/utilities/constants.dart';
+import 'package:clima_app/utilities/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -16,12 +16,12 @@ class _CityScreenState extends State<CityScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('images/city_background.jpg'),
-            fit: BoxFit.cover,
-          ),
-        ),
+        // decoration: BoxDecoration(
+        //   image: DecorationImage(
+        //     image: AssetImage('images/city_background.jpg'),
+        //     fit: BoxFit.cover,
+        //   ),
+        // ),
         constraints: BoxConstraints.expand(),
         child: SafeArea(
           child: Column(

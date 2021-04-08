@@ -1,5 +1,5 @@
-import 'package:clima/services/location.dart';
-import 'package:clima/services/networking.dart';
+import 'package:clima_app/services/location.dart';
+import 'package:clima_app/services/networking.dart';
 
 import 'networking.dart';
 
